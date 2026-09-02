@@ -19,7 +19,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q RideLog-GitHub.zip -d extracted
+          unzip -q RideLog-GitHub-v2.zip -d extracted
           cp -a extracted/RideLog-GitHub/. .
 
       - name: Set up Java
